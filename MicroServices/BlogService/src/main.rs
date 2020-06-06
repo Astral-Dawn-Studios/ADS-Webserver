@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn hello() -> &'static str {
-    "Hello, this is the backend Twitter Service"
+    "Hello, this is the Backend Blog Service"
 }
 
 fn main() {
