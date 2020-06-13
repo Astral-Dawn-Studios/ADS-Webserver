@@ -1,0 +1,17 @@
+.carousel {
+  filter: grayscale(75%);
+  transition: 0.75s;
+}
+
+.carousel:hover {
+  filter: grayscale(0%);
+}
+
+.carousel-item {
+  max-height: 50%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  transform: translateY(-25%);
+}
